@@ -1,0 +1,25 @@
+{
+  "global_seed": 20260428,
+  "iteration_complexity": {
+    "script": "plot_iteration_complexity.py",
+    "seed": 0,
+    "k": 100,
+    "n_base_matrices": 20,
+    "n_initial_states_per_base": 5,
+    "t_max": 10000,
+    "epsilon": 0.001,
+    "sparse_density": 0.15,
+    "rho_grid": "200 values over [0.5, 1.5], denser near 1"
+  },
+  "rho_sweep_five_lines": {
+    "script": "plot_rho_sweep_five_lines.py",
+    "seed": 20260439,
+    "seed_formula": "GLOBAL_SEED + 11",
+    "k": 100,
+    "n_runs": 100,
+    "t_max": 200,
+    "normal_rhos": [0.5, 0.99, 1.01, 1.5],
+    "nonnormal_rho": 0.5,
+    "nonnormal_transient_growth_ratio": 10.0
+  }
+}
