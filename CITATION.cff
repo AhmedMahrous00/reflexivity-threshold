@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "The Reflexivity Threshold: Simulation Code"
+authors:
+  - family-names: Mahrous
+    given-names: Ahmed
+    orcid: "https://orcid.org/0000-0003-4694-5336"
+  - family-names: Di Pietro
+    given-names: Roberto
+    orcid: "https://orcid.org/0000-0003-1909-0336"
+repository-code: "https://github.com/AhmedMahrous00/reflexivity-threshold"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction"
+  authors:
+    - family-names: Mahrous
+      given-names: Ahmed
+    - family-names: Di Pietro
+      given-names: Roberto
+  collection-title: "Advances in Neural Information Processing Systems"
+  year: 2026
+  url: "https://openreview.net/forum?id=JykL1GuF6G"
